@@ -23,8 +23,8 @@ for(int i = 0;i < str.length(); i++){
 	} 
 }
 
-double x = Double.parseDouble(str.substr(0,operPosi))
-double y =  Double.parseDouble(str.substr(operPosi + 1,str.length()))
+double x = Double.parseDouble(str.substring(0,operPosi))
+double y =  Double.parseDouble(str.substring(operPosi + 1,str.length()))
 
 if(operation == '+'){
 	println "The result of this operation is: " + (x + y)
